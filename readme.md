@@ -1,4 +1,6 @@
 > **Notice:** PLCIFAR10 was collected and pre-processed by me, with courtesy and proprietary to the authors of referred literatures on them. The pre-processed data sets can be used at your own risk and for academic purpose only.
+# PLCIFAR10
+This repository provides the PLCIFAR10 dataset of the paper "Realistic Evaluation of Deep Partial-Label Learning Algorithms" and dataset details can be found in the paper. 
 
 ## Introduction
 This repository is the official dataset release of PLCIFAR10, a partial-label version of CIFAR-10 with human-annotated partial labels. For each image from the training set of CIFAR-10, PLCIFAR10 provides about 10 candidate label sets given by individual annotators, where each candidate label set may contain multiple labels and may contain the true label. For each example, we have a list of lists, where each sublist contains partial labels given by an individual annotator.
